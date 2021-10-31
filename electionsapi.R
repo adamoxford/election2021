@@ -83,4 +83,4 @@ for (i in ecMunis$MunicipalityID) {
   ecresultsList <- union(getvoteresultList2, ecresultsList)
 }
 
-write.table(ecresultsList, "ecresultsList.csv", sep=",")
+write.table(ecresultsList, "ecresultsList.csv", sep=",") test
